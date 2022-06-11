@@ -1,15 +1,20 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom';
-import AboutUs from '../AboutUs/AboutUs'
-import Contacts from '../Contacts/Contacts'
-import ORG from '../ORG/ORG'
+import { Link } from 'react-router-dom'
 
 export default function Tabs() {
     return (
-        <Routes>
-            <Route path='/AboutUs/AboutUs' element={<AboutUs />} />
-            <Route path='/ORG/ORG' element={<ORG />} />
-            <Route path='/Contacts/Contacts' element={<Contacts />} />
-        </Routes>
+        <div className="header">
+            <div>
+                <Link to="/AboutUs/AboutUs">
+                    <button>O компании</button>
+                </Link>
+                <Link to="/Clients/Clients">
+                    <button>Клиенты</button>
+                </Link>
+                <Link to="/Contacts/Contacts">
+                    <button>O компании</button>
+                </Link>
+            </div>
+        </div>
     )
 }
