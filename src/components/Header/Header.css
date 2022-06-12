@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: 8vh;
+    background-color: #78A85D;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 7%;
+}
+
+.Sign_in{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sign a{
+    font-size: 80%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login_logo{
+    padding-left: 6%;
+}

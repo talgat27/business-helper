@@ -1,0 +1,37 @@
+.slider{
+    width: 88%;
+    height: 650px;
+}
+
+.slider1 .slider2 .slider3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center ;
+        justify-content: center   ;
+        position: relative;
+}
+
+.images{
+    position: absolute;
+    z-index: -10;
+    right: 0%;
+    width: 60%;
+    background-repeat: no-repeat;
+}
+
+.text{
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.text h1{
+    font-size:65px;
+    letter-spacing: 2px;
+}
+
