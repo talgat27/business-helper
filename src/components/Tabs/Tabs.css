@@ -6,6 +6,7 @@
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .header-container {

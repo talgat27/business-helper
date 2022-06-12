@@ -1,13 +1,13 @@
 import React from "react";
 import './Footer.css'
 import { Button } from "antd";
-import Maps from "../../components/images/maps.png"
-import Email from "../../components/images/email.svg"
-import Location from "../../components/images/location.svg"
-import Phone from "../../components/images/phone.svg"
-import Telegram from "../../components/images/telega.svg"
-import WhatsApp from "../../components/images/whatsapp.svg"
-import Instagram from "../../components/images/instagram.svg"
+import Maps from "../../images/maps.png"
+import Email from "../../images/email.svg"
+import Location from "../../images/location.svg"
+import Phone from "../../images/phone.svg"
+import Telegram from "../../images/telega.svg"
+import WhatsApp from "../../images/whatsapp.svg"
+import Instagram from "../../images/instagram.svg"
 
 export default function Footer() {
   return (

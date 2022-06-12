@@ -2,6 +2,7 @@ import React from 'react'
 import './companyreg.css'
 import logo from '../../images/logo.png'
 import background from '../../images/background.png'
+
 export default function CompanyRegistration() {
     return (
         <div className='blockregistration'>
@@ -45,7 +46,7 @@ export default function CompanyRegistration() {
                     </div>
                 </div>
             </div>
-            <div className="footer">
+            <div className="footer-line">
 
             </div>
         </div>

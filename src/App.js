@@ -6,12 +6,11 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import AboutUs from './components/AboutUs/AboutUs'
 import Contacts from './components/Contacts/Contacts'
 import Clients from './components/Clients/Clients'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <BlockInfo />
-      <CompanyRegistration />
       <Tabs />
       <Routes>
         <Route path="/" element={<Navigate to="/AboutUs/AboutUs" />} />
@@ -19,6 +18,9 @@ function App() {
         <Route path='/Clients/Clients' element={<Clients />} />
         <Route path='/Contacts/Contacts' element={<Contacts />} />
       </Routes>
+      <BlockInfo />
+      <Footer />
+      {/* <CompanyRegistration /> */}
     </div>
   );
 }
