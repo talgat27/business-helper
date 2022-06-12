@@ -1,6 +1,6 @@
 import './App.css';
 import Tabs from './components/Tabs/Tabs';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import AboutUs from './components/AboutUs/AboutUs'
 import Contacts from './components/Contacts/Contacts'
 import Clients from './components/Clients/Clients'
@@ -10,6 +10,7 @@ function App() {
     <div>
       <Tabs />
       <Routes>
+        <Route path="/" element={<Navigate to="/AboutUs/AboutUs" />} />
         <Route path='/AboutUs/AboutUs' element={<AboutUs />} />
         <Route path='/Clients/Clients' element={<Clients />} />
         <Route path='/Contacts/Contacts' element={<Contacts />} />
