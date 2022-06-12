@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import '../../global.scss';  */
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54vh;
+}
+
+.brown_block{
+    width: 40%;
+    height: 56vh;
+    background-color: grey;
+    z-index: 0;
+    
+}
+
+.maps_block {
+    
+    width: 60%;
+}
+
+.maps{
+    width: 100%;
+    background-size: cover;
+}
+
+.green_block{
+    width: 100%;
+    height: 20vh;
+    background-color:#78A85D;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff
+}
+
+.center_text{
+    width: 25%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-left: 10%;
+
+}
+
+.right_content {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-block{
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 40vh;
+    border: 5px  ;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: 22;
+}
+.fill-block {
+   flex-direction: column;
+   display: flex;
+}
+.fill-block input{
+    width: 75%;
+    border:none;
+    margin-left: 20px;
+}
+.fill-block input::placeholder{
+
+    border-bottom: 4px solid grey;
+}
+.submit-block{
+    width: 70%;
+}
+.feedback{
+ font-size: 25px;
+ font-family: "Inter", "san-serif";
+}
+
+.send{
+    width: 30%;
+    
+    background-color: #78A85D;
+    border: none;
+    border-radius: 10px;
+
+}
+/* .maps_conteiner {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #5B3992;
+    border-radius: 10px;
+    position: relative;
+  
+}
+
+.Maps{
+    width: 100%;
+    height: 300px;
+} */
