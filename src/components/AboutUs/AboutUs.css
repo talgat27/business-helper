@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 20px solid #8BB0BA;
+    border-bottom: 20px solid #585ECC;
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
@@ -23,13 +23,14 @@
 
 .card {
     width: 28.5%;
-    height: 80%;
+    height: 70%;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid #8BB0BA;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -55,7 +56,7 @@
 .card-inner-content .line {
     width: 150px;
     height: 25%;
-    border-bottom: 5px solid #78A85D;
+    border-bottom: 5px solid #92AACC;
     border-radius: 3px;
 }
 
@@ -72,4 +73,5 @@
     font-weight: 600;
     letter-spacing: 1px;
     margin-top: 40px;
+    color: black;
 }

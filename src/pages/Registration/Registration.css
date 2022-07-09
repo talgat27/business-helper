@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.registration-wrapper {
+    width: 100%;
+    height: 88vh;
+    background-image: url('../../images/bg-pic2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 38px solid rgba(131, 136, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-container {
+    width: 40%;
+    height: 70%;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid #8388D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registration-form-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form-title-p {
+    font-size: 32px;
+    font-family: 300;
+    font-family: 'Inter', sans-serif;
+    color: #3A3762;
+    margin: 0;
+}
+
+.registration-form-content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registration-form-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration-form-content-label {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #3A3762;
+}
+
+.registration-form-content-input {
+    width: 70%;
+    height: 30px;
+    border: 1px solid #585ECC;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 5px;
+    font-size: 20px;
+    color: rgba(83, 81, 81, 1);
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+
+.registration-form-content-input:hover {
+    box-shadow: 1px 2px 20px rgba(88, 94, 204, 0.57);
+}
+
+.registration-form-content-btn {
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(169, 171, 200, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.registration-form-content-btn:hover {
+    background-color: rgba(88, 94, 204, 0.74);
+}

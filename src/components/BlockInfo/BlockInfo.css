@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .block{
     width: 80%;
@@ -9,21 +10,23 @@
 .title-text{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     line-height: 30.26px;
-    padding-top: 34px;
     padding-left: 20px;
 }
+
 .info-text{
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 19.36px;
     color: white;
     text-align: start;    
     padding-left: 20px;
+    letter-spacing: 1px;
 }
+
 .block-one{
     display: flex;
     width: auto;
@@ -33,7 +36,7 @@
 .green-first{
     width: 20%;
     border: 2.5px solid white;
-    background-color: #78A85D;
+    background-color: #3A3762;
     background-image: url('../../images/blockinfolock.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -42,11 +45,29 @@
 .green-second{
     width: 80%;
     border: 2.5px solid white;
-    background-color: #78A85D;
+    background-color: #3A3762;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.block-content-wrapper{
+    width: 90%;
+    height: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
 }
+
+.content-wrapper2 {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .block-two{
     display: flex;
     width: auto;
@@ -56,7 +77,7 @@
 .blue-first{
     width: 20%;
     border: 2.5px solid white;
-    background-color: #8BB0BA;
+    background-color: #585ECC;
     background-image: url('../../images/blockinfoclock.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -64,10 +85,10 @@
 .blue-second{
     width: 80%;
     border: 2.5px solid white;
-    background-color: #8BB0BA;
+    background-color: #585ECC;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .block-three{
@@ -80,7 +101,7 @@
 .grey-first{
     width: 20%;
     border: 2.5px solid white;
-    background-color: #D0D0D0;
+    background-color: #92AACC;
     background-image: url('../../images/blockinfo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -88,8 +109,8 @@
 .grey-second{
     width: 80%;
     border: 2.5px solid white;
-    background-color: #D0D0D0;
+    background-color: #92AACC;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
 }

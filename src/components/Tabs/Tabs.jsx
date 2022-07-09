@@ -1,20 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import AboutUs from '../AboutUs/AboutUs';
+import Clients from '../Clients/Clients';
+import Contacts from '../Contacts/Contacts';
 import './Tabs.css'
 
-export default function Tabs() {
+export default function Tabs({SetTab}) {
+
+
     return (
-        <div className="header-wrapper">
-            <div className='header-container'>
-                <Link to="/AboutUs/AboutUs">
-                    <button className='btn'>O компании</button>
-                </Link>
-                <Link to="/Clients/Clients">
-                    <button className='btn'>Клиенты</button>
-                </Link>
-                <Link to="/Contacts/Contacts">
-                    <button className='btn'>Контакты</button>
-                </Link>
+        <div className="tabs-wrapper">
+            <div className='tabs-container'>
+                <button className='btn' onClick={e => {e.preventDefault(SetTab(<AboutUs />));}}>O компании</button>
+                <button className='btn' onClick={e => {e.preventDefault(SetTab(<Clients />));}}>Клиенты</button>
+                <button className='btn' onClick={e => {e.preventDefault(SetTab(<Contacts />));}}>Контакты</button>
             </div>
         </div>
     )
